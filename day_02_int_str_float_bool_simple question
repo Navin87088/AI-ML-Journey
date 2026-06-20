@@ -1,0 +1,82 @@
+#data type
+  integer(50, 5,6, 0) -->int
+  float--> decimal value --> float
+  string--> text data ("NS", "Kaithal")--> str
+  Boolean --> True/False --> bool
+
+  comment shortcut --> ctrl + slash.
+  case sensitiv language.
+  
+  Variable naming rules 1. start: alphabet+_
+    2. middle or end --> alphabet-, digit
+      eg. --> student_name --> yes
+      _marks -->yes, city--> yes
+        states5--? yes, 4city-->> No,  student-name--> No
+
+  Taking input from the user.
+          #input()
+          name = input()
+          or
+          name = input("Enter the Name")
+          O\p --> Enter the  Name
+
+          Que.1 Take two int as input from the user and print their sum.
+          #string concatenation(taken as text)
+          #input() --> is always taken as string
+
+          #Type Castion: changing the type of data.
+            age = "20"
+            new_age = int(age)
+            type(new_age)
+            O/P --> int.
+
+
+            sol:- #mentos things:-
+              a= int(input())
+              b = int(input())
+              c = a+b
+              print(c)
+
+
+          Que:- Take year of birth as input and print the age.
+            birth_date = int(input())
+            age = 2026-birth_date
+            print(age)
+
+
+         Que:- Take length and breath of the rectangle as input print it's area (area (l*b))
+
+sol:-- l = float(input())
+       b = float(input())
+  area = l*b
+  print(area)
+
+
+  Que:- Take the name, age, and height(in inches) of the student as input and print
+
+    sol:-- name = input()
+      age = int(input())
+      height = float(input())
+      print("---------------")
+      print(name, age, height)
+
+
+
+
+      Variable is the container for storing data
+      output fo 
+                num1 = input()
+                num2 = input()
+                print(num1 + num 2)
+
+      O/P --> 1020 of input 10 and 20
+
+      print(type("python")) --> <class'str'>
+      
+
+           
+
+
+
+
+          
