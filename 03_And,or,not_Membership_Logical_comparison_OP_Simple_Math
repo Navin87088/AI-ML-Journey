@@ -18,6 +18,120 @@ two Int division get float O/P and multiplication also
         ---------------------------------------- 
 
 
+#Assignment Operators
+x = 10
+print(x)   O/P  = 10
+x = 10
+x+= 2     O/P = 12
+
+
+#Comparison Operators
+10>=7    OP = True
+4<3      OP = False
+
+5<5      OP = False
+5<=5     OP = True
+
+5=5      OP = Error
+5==5     OP = True
+
+6! = 5   OP = True (! not equal to)
+6! = 6   OP = False
+
+#Logical Operators (and, or, not)
+#and's op is false if any one statement is wrong in and Like;
+
+(4>3) and (5>2)
+O/P --> True
+
+(4>3) and (5<2)
+O/P --> False
+
+(4<3) and (5<2) 
+O/P --> False 
+
+(4<3) or (5<2)
+op --> False
+(4>3) or (5<2)
+OP --> True
+#If any statement is right in OR the OP is True.
+
+#not--> toggle 
+#True --> False
+#False --> True
+
+not(4==5)
+True
+
+not(4>7)
+True
+
+not(4!=7)
+False
+
+not((3>3) and (6<3))
+True
+
+not((3>=3) or (6<3))
+False
+
+
+#Membership Operator:-
+
+"a" in "Aditya"
+True
+
+"b" in "Aditya"
+False.
+
+
+'c' not in "Aditya"
+OP -- True.
+
+
+Q. print(15/3) = a. 5,  b. 5.0
+Q. print(17%5) = 
+Q. x= 10
+   x += 5
+   print(x)
+
+Q. Salary = 50000
+    Salary -= 10000
+   print(Salary)
+
+Q. print(True and False)
+   OP =
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
         
+
+
+
+
+
+
+
+
+
+
+
