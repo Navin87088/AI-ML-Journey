@@ -1,0 +1,7 @@
+marks = int(input())
+if marks < 30:
+    print("low")
+elif (marks < 70):
+    print("avg")
+else:
+    print("high")
