@@ -1,0 +1,119 @@
+if the first condition is true in program it close the further going.
+
+if 4>2:
+  print("A")
+elif 1<2:
+  print("B")
+else:
+  print("C")
+
+Write a program to check whether a person is eligible to vote.
+if age is 18 or above, print "eligible to vot" Otherwise print "not eligible"
+
+age = int(input())
+if age < 18:
+  print("not eligible to vote")
+else:
+  print("eligible to vote")
+
+#Take a number from the user and check whether it is even or odd.
+
+Number = int(input())
+if (Number % 2 == 0):
+  print("Even")
+else:
+  print("Odd")
+
+
+
+#Write a program to identify whether a number is positive, negative or zero.
+
+n = int(input())
+if n > 0:
+  print("Positve")
+elif n < 0:
+  print("negative")
+else:
+  print("Zero")
+
+
+#04 Take two numbers and print the larger number.
+#If both are equal print "Both numbers are equal."
+
+a = int(input())
+b = int(input())
+if a > b:
+  print("Larger number is", a)
+elif a < b:
+  print("Larger number is", b)
+else:
+  print("Both are equal number")
+
+
+#body mass index (BMI) is a simple measure that helps determine whether a person's weight is appropriate for their height.
+#Write a Python program that takes the BMI value as input from the user and displays the corresponding weight category using the following rules:
+
+#BMI value category 
+# Less than 18.5 underweight
+# 18.5 to 24.9 Normal weight
+# 25.0 to 29.9 Overweight
+# 30.0 or above Obese
+
+bmi = float(input())
+if bmi >= 30:
+  print("Obese")
+elif bmi >= 25:
+  print("Overweight")
+elif bmi >= 18.5:
+  print("Normal Weight")
+else:
+  print("Underweight")
+
+
+
+#Write a Python program that takes an integer as input and checks its divisibility
+
+#If the number is divisibleby both 3 And 5 : Divisible by 5 and 3
+#if the number is only divisible by 3 : Divisible only by 3
+#If the number is only divisible by 5 : Divisible only by 5
+#Otherwise : Not divisible by 3 or 5
+
+number = int(input())
+if (number % 3 == 0) and (number % 5 == 0):
+  print("Divisible by 5 and 3")
+elif (number % 3 == 0) and (not(number % 5 == 0)):
+  print("Divisible only by 3")
+elif ((number % 5 == 0) and (not(number % 3 == 0))):
+  print("Divisible only by 5")
+else:
+  print("Not divisible by 3 or 5")
+
+#odering matters
+
+n = 15
+if (n%3 == 0) and (n%5 == 0):
+  print("Div by 5 and 3")
+elif (n%3 == 0):
+  print("Div by 3")
+elif (n%5 == 0):
+  print("Div by 5")
+else:
+  print("Not div by 3 or 5")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
