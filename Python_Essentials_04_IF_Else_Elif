@@ -1,3 +1,6 @@
+#Indentation like in other language we use {} to open and close.  in if else condition here is indentation 4 space to understand
+the condition. 
+
 marks = int(input())
 if marks < 30:
     print("low")
