@@ -1,0 +1,150 @@
+num = 0
+if num:
+  print("True")
+else:
+  print("False")
+
+OP = False.
+
+
+# Can elif exist without if --> no
+# Can if exist with out elif --> Yes
+# Can else exist without if --> No
+# Can if exist without else --> Yes
+
+
+
+#which condtion checks whether a number lies between 10 and 20 (inclusive)?
+
+#num >= 10 and num <= 20
+
+
+"python" == "Python"
+O/P = "False".
+
+
+#LOOP
+for i in range(1,6,1):
+  print(i)
+
+#Print all the numbers from 2 to 10 both inclusive
+
+for i in range(2,11,1):
+  print(i)
+
+for i in range(1,6,1):
+  print("Hi", end = " ")
+
+
+for i in range(5):
+  print("Hi", end = " ")
+
+# Print 1 to 5 (both inclusive but use only one parameter)
+for i in range(5):
+  print(i+1)
+
+for i in range(10):
+  print(10-i, end = " ")
+
+
+#1. Print all the even numbers between 0 to 10 (Both inclusive)
+
+for i in range(0,11,2):
+  print(i, end = " ")
+
+for i in range(6):
+  print(i*2, end = " ")
+
+for i in range(11):
+  if i%2 == 0:
+    print(i, end = " ")
+
+
+for i in range(11):
+  if i%2 !=0:
+    print(i, end = " ")
+
+
+for i in "Navin":
+  print(i, end = " ")
+
+
+# print the squares of all the int from 2 to 7 (both inclusive)
+
+for i in range(2,8,1):
+  print(i*i, end = " ")
+
+# Print the multiplication table of 5 for its first 10 multiples.
+
+for i in range(1,11):
+  print("5 * ",i , " = ", 5*i)
+
+
+
+# Print all the multiples of 5 from 1 to 50 (both inclusive)
+
+for i in range(1,51):
+  if i % 5 == 0:
+    print(i, end = " ")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
