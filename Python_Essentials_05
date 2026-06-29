@@ -102,6 +102,21 @@ else:
 
 
 
+if and if both are independent
+x = 25
+if x > 10:
+   print("A")
+if x > 20:
+  print("B")
+
+
+
+
+
+
+
+
+
 
 
 
