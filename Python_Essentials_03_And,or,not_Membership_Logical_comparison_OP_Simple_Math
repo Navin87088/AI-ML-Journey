@@ -100,7 +100,9 @@ Q. Salary = 50000
    print(Salary)
 
 Q. print(True and False)
-   OP =
+   OP = False
+
+
 
 
 
