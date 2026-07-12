@@ -1,0 +1,93 @@
+# what will it print
+name = "Data"
+
+for ch in name:
+  if ch == "a":
+    print(ch)
+
+#While loop
+# Print all the int from 1 to 5.
+
+i = 1
+while i<6:
+i = i + 1
+
+
+#Write a while loop to print hi 7 times on the screen.
+
+i = 1
+while i <= 7:
+  print(i, "Hi")
+  i = i + 1
+
+
+#short understanding operators
+
+i = 7
+while i >= 1:
+  print(i, "Hi", end = " ")
+  i -= 1
+
+
+#Print all the even numbers between 0 to 10 (both inclusive) using while loop
+
+i = 0
+
+while i <= 10:
+  print(i)
+  i += 2
+
+#or
+i = 0 
+while i <= 10:
+  if i %2 == 0:
+    print(i)
+  i += 1
+
+#print all the odd numbers between 0 to 10.
+
+i = 1
+while i <= 10:
+  print(i)
+  i += 2
+
+i = 1
+while i <= 10:
+  if i %2 != 0:
+    print(i)
+    i += 2
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
