@@ -58,6 +58,85 @@ while i <= 10:
     i += 2
 
 
+# Print the sum of all the numbers between 1 to 10(Both inclusive)
+# 1. for loop
+# 2. while loop
+
+#while
+sum = 0
+i = 0
+while i <= 10:
+  sum += i
+  print(sum, end = ",")
+  i += 1
+
+#For
+sum = 0
+for i in range(1,11):
+  sum += i
+  print(sum, end = ",")
+
+#Just print the sum only
+
+sum = 0
+i = 1
+while i<= 10:
+   sum += i
+   i += 1
+
+print(sum)
+
+
+#Print the multiplication table of 5 till its first 10 multiples:a
+
+n = 5
+i = 1
+
+while i<= 10:
+  print(n," * ", i, "=", n*i)
+  i += 1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
