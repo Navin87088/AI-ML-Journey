@@ -1,0 +1,142 @@
+#Nested Loop
+
+for i in range(4):
+  for j in range(2):
+    print("i = ", i, "j = ", j)
+
+O/P -->  = i =  0 j =  0
+i =  0 j =  1
+i =  1 j =  0
+i =  1 j =  1
+i =  2 j =  0
+i =  2 j =  1
+i =  3 j =  0
+i =  3 j =  1
+
+
+#real way
+for row in range(4):
+  for col in range(5):
+    print("*", end= " ")
+  print()
+
+O/P -->
+* * * * * 
+* * * * * 
+* * * * * 
+* * * * * 
+
+for row in range(1, 6):
+  for col in range(1, 6):
+    print(row, end = " ")
+  print()
+
+O/P-->
+[37]
+0s
+for row in range(1, 6):
+  for col in range(1, 6):
+    print(row, end = " ")
+  print()
+1 1 1 1 1 
+2 2 2 2 2 
+3 3 3 3 3 
+4 4 4 4 4 
+5 5 5 5 5 
+#always try to print one line
+
+
+1 2 3 4 5 
+1 2 3 4 5 
+1 2 3 4 5 
+1 2 3 4 5 
+1 2 3 4 5 
+for i in range(1,6):
+
+  for j in range(1,6):
+    print(j, end = " ")
+  print()
+
+
+* 
+* * 
+* * * 
+* * * * 
+* * * * * 
+#Pattern: row 1 --> 1, row 2 --> 2, row 3 --> 3, row 4 --> 4...
+
+for row in range(1,6):
+  for col in range(row):
+    
+    print("*", end = " ")
+  print()
+
+
+1 
+1 2 
+1 2 3 
+1 2 3 4 
+1 2 3 4 5 
+for row in range(1,6):
+  for col in range(1, row + 1):
+    print(col, end = " ")
+  print()
+
+
+Que-->
+1 
+2 3 
+4 5 6 
+7 8 9 10 
+n wo counter hai jo har print ke baad 1 se badhta rehta hai.
+
+n = 1
+
+for row in range(1,5):
+
+  for col in range(row):
+    print(n, end = " ")
+    n += 1
+  print()
+
+
+Que What is a nested loop?
+
+A loop inside another loop.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
