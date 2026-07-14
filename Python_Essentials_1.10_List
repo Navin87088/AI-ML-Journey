@@ -1,0 +1,67 @@
+#LIST
+m1 = 90
+m2 = 86
+m3 = 95
+m4 = 83
+
+marks = [90, 86, 95, 83, 70]
+print(marks)
+
+
+type(a)
+o/p = list
+
+type(marks)
+O/P  --> list
+
+
+# Empty List
+
+student = []
+print(students)
+
+what is the purpose of storing the data
+Ans. so we can use it later
+
+#Indexing
+
+marks[0]
+O/P = 90
+
+n= len(marks)
+print(n)
+O/P = 5
+
+#to access the last marks we can also use
+marks[n-1]
+
+
+# Python has something unique which is called -ve indexing
+
+marks[-2]
+
+marks[5]
+O/p -->
+error if only 0-4 index
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
