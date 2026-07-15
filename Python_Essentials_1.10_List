@@ -44,6 +44,68 @@ marks[5]
 O/p -->
 error if only 0-4 index
 
+this are on in one containers
+ to change the marks you can simply do
+
+marks[2] = 87
+
+by doing this marks will automatically update
+
+#lterating over a list
+
+n = len(marks)
+print(n)
+
+O/p --> 5
+
+for i in range(n):
+  print(marks[i])
+
+for elem in marks:
+  print(elem)
+
+# Write a code to print the elements presents at even indexes
+
+for elem in marks:
+  if elem % 2 == 0:
+    print(elem)
+
+# indexes which are even 0, 2, 4.
+for i in range(n):
+  if i%2 == 0:
+    print(marks[i])
+
+#even elements
+for i in range(n):
+  if marks[i]%2 == 0:
+    print(marks[i])
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
