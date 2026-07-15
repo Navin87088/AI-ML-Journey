@@ -81,49 +81,64 @@ for i in range(n):
     print(marks[i])
 
 
+# What is printed?
+
+numbers =[5,15,10]
+
+for i in range(len(numbers)):
+  print(numbers[i])
 
 
+# Write a code to find the sum of all the elements of the list.
+
+marks = [ 60, 70, 90, 80 ]
+
+sum = 0
+for elem in marks:
+  sum = sum + elem
+
+print(sum)
+
+# write a code to find the average of all the elements of the list.
+# sum(marks) is not working because the variable is already used 
+
+marks = [ 60, 70, 90, 80 ]
+
+sum = 0
+for elem in marks:
+  sum = sum + elem
+
+print(sum/len(marks))
 
 
+# What is printed ?
+
+numbers = [9,5,7,1]
+
+print(sorted(numbers))
+
+# for permanent sort number important
+numbers.sort()
+print(numbers) 
 
 
+nums = [2,4,6,8]
+
+count = 0
+
+for n in nums:
+  if n > 4:
+    count += 1
+print(count)
 
 
+numbers = [3,5,7]
 
+result = 1
 
+for n in numbers:
+  result = result * n
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+print(result)
 
 
