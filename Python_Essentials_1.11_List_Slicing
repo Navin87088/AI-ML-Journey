@@ -11,4 +11,131 @@ n = len(a)
 for i in range(n):
   print(a[n-1-i])
 
-  
+
+
+# List Slicing
+
+a = [5,7,4,8,2,1,9]
+print(a)
+O/P--> [5,7,4,8,2,1,9]
+
+print(a[1:4]
+O/P --> [7,4,8]
+
+print(a[:4])         #act as [0:4]
+O/P -->  [5,7,4,8]
+
+print(a[1:])       # it will go to the end
+
+
+print(a[ : ])     # infinite list will printed (complete list)
+
+print(a[1:5:2])   # start 1, end 5, inc 2:
+
+print(a[ : : 2])  # 0: :2 start with 0 and inc by 2
+
+
+
+#Strings
+
+# anything which we want to store in the form of text we use strings
+ 
+a = "24"
+type(a)
+
+len("Navin")
+
+name = "Navin"
+print(name[0])
+print(name[1])
+
+# Strings is the array of characters
+
+print(name[-1])
+
+
+# print the given string in reverse orde.
+
+name = "Navin"
+
+n = len(name)
+
+for i in range(n-1, -1,-1):
+  print(name[i])
+
+print(name[::-1])   # -1 for reverse order   --> Special Case
+O/P --> nivaN
+
+first = "Data"
+
+second = "Science"
+
+print(first + second)
+
+# when we multiply the string it got multiplied by 3 Like;
+
+print("AI"*3)
+
+
+print("Navin")
+print("-"*20)
+print("singh")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
