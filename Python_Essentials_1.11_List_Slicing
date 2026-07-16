@@ -82,7 +82,15 @@ print("-"*20)
 print("singh")
 
 
+word = "Python"
+print("p" in word)
+--OP--> ?
 
+word = "Python"
+print("z" not in word)
+--> O/p-- ?
+
+#
 
 
 
