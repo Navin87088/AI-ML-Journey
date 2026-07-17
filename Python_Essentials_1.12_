@@ -1,1 +1,155 @@
+s = "Navin Singh"
+
+a = s.split(" ")
+
+print(a)
+
+o/p --> ['Navin','Singh']
+
+s = "Navin Singh likes to do programming"
+a = s.split(" ")
+print(a)
+
+O/P --> ['Navin', 'Singh', 'likes', 'to', 'do', 'programming']
+
+for elem in a:
+  print(elem)
+O/P -->
+Navin
+Singh
+likes
+to
+.....
+
+ord('A")
+ascii code
+O/P --> 65
+
+
+ord('Z')
+O/p --> 90.
+They are in order.
+
+ord('a')
+OP --> 97
+
+ord('z')
+O/P --> 122
+
+chr(122)
+O/P --> 122
+
+word = "Computer"
+
+count = 0
+
+for ch in word:
+  if ch < "m":
+    count += 1
+
+print(count)
+O/P --> ?
+
+chr(128522)
+O/P --> smiley
+
+# Function
+
+len("NS")
+O/P --> 2
+
+type(2)
+
+# def function_name():
+#    definition
+
+def greet():
+  print("Hello")
+O/P --> EMPTY
+but
+greet()  #function call
+O/P --> Hello
+
+# Write a function that prints "Hello name" for whatever name you want
+
+def greet():
+  print("Hello, Navin")
+greet()
+O/P --> Hello, Navin
+
+# Code reusability
+
+# function definition --> Parameter
+# function call --> argument
+
+def greet(name):
+  print("Hello", name)
+greet("Navin")
+O/P --> Hello Navin
+
+greet("Nitika")
+O/P --> Hello Nitika
+
+
+# Positional Arguments
+
+def show(name, age):
+  print("Name is", name)
+  print("Age is", age)
+
+show ("Monu", 22)
+O/P --> Name is Monu
+        Age is 22
+
+#disadvantage
+
+show(20,"Monu")
+
+#computer does not care what is name what is age
+
+O/P -->
+Name is 20
+Age is Monu
+
+# Keyworded Argument
+
+def show(name, age):
+  print("Name is", name)
+  print("Age is", age)
+
+show(name = "Monu", age = 20)
+O/P -->
+Name is Monu
+Age is 20
+
+
+show(age = 22, name = "Monu")
+#name matters
+O/P -->
+Name is Monu
+Age is 22
+
+
+#Return Keyword
+def show(a,b):
+  return a+b
+s = show(2,3)
+print(s)
+O/P -->
+5
+
+def message():
+  print("Python")  
+                        # not returning any thing
+
+x = message()
+
+print(x)
+
+
+def stars():
+  print("*" * 5)
+
+for i in range(3):
+  stars()
 
