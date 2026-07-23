@@ -1,0 +1,96 @@
+student = ["Rahul", 22,91.5,"Nagpur"]
+# This Values stored are not easy to understand so,we use dictionary
+
+student = {
+    "name" : "Rahul",
+    "age" : 22,
+    "CGPA" : 91.5,
+    "city" : "Nagpur"
+} 
+
+# In list value is found by syntax student[1] but in dict
+
+student["name"]
+
+#Update age
+
+student["age"] = 23
+
+# Insert one more key and value
+
+student["state"] = "Maharashtra"
+
+# student["Age"] O/P --> Error. So,
+
+student.get("age")
+
+# student["Age"] O/P --> Error. So,
+
+student.get("age")
+23
+
+student.get("address", "Key not found") 
+
+O/P--> 'Key not found'
+
+student.get("age", "Key not found")
+23
+
+# Remove the key and value form the dictionary
+
+student.pop("state") # state got deleted
+
+
+## Loop over Dictionaries
+
+for k in student.keys():
+    print(k)
+
+    
+for k in student.keys():
+  print(student[k])
+
+
+for elem in student.items():
+  print(elem)
+
+for elem in student.items():
+    print("key =", elem[0], ", value = ", elem[1])
+O/P--> key = name , value =  Rahul
+key = age , value =  23
+key = CGPA , value =  91.5
+key = city , value =  Nagpur
+
+
+# Que. 10% hike in the salary
+
+employee = {
+    "salary" : 50000
+}
+
+employee["salary"] = (employee["salary"] * 0.1) + employee["salary"]
+
+# employee["salary"] = (employee["salary"] * 1.10)
+
+print(employee["salary"])
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
