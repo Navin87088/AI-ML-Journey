@@ -138,6 +138,12 @@ print(s)
 O/P -->
 5
 
+# Default Argumet
+def show(name="Raj")
+    print(name)
+show()
+O/P--> Raj
+
 def message():
   print("Python")  
                         # not returning any thing
