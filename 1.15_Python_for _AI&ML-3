@@ -1,1 +1,36 @@
+#Given a string, write a code to convert it to lowercase. U cannot use lower()
+
+s = "Raj"
+#op: "raj"
+
+new_s= ""
+for ch in s:
+  if ch <= 'Z' and ch >= 'A':
+    new_s += chr(ord(ch) + 32)
+  else:
+    new_s += ch
+
+print(new_s)
+
+
+#Given a string, write a code to convert it to uppercase. I can't use upper()
+
+s = "Navin"
+
+new = ""
+for ch in s:
+  if ch >= 'a' and ch <= 'z':
+    new += chr(ord(ch) - 32)
+  else:
+    new += ch
+
+print(new)
+
+
+
+
+  
+
+
+
 
