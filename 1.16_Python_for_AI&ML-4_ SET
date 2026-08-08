@@ -9,3 +9,80 @@ type(values) --> SET
 
 Que --> Write a code to only store the unique occurances of the elements in the list
 
+students =[
+    "Rahul",
+    "Amit",
+    "Rahul",
+    "Nigam",
+    "amit"
+]
+
+uq = []
+
+for student in students:
+  if student not in uq:
+    uq.append(student)
+
+print(uq)
+
+Set -- Unique
+1. Stores only the unique values.
+2. Unordered
+3. Mutable
+
+num = {3, 6, 8, 2, 1}
+type(num) --> 
+
+fruits = {"Apple", "Banana", "Orange"}
+len(fruits) --> 3
+
+num ={4, 5, 7, 2, 4 8, 1}
+len(num) -- > 6
+
+s = {4,5.5,"NS", False}
+#set is also created by the variety of things.
+
+l = []
+t = ()
+d = {}
+s = set()
+
+num = {4,5,7,2,4,8,1}
+print(num)
+num[0] --> Error
+#No concept of order in set
+
+#Add
+num.add(10)
+print(num)
+
+#Sub.
+num.remove(4)
+print(num)  --> one element got removed
+
+#If element is not in set & we are going to remove --> it gives error
+
+item = num.pop()
+print(item)
+--> random item in the set got removed
+
+# num.clear() --> empty the set
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
