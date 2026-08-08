@@ -1,0 +1,11 @@
+values = { 2, 4, 6, 8}
+total = 0
+for value in values:
+  total += value
+print(total//len(values))
+
+type(values) --> SET
+
+
+Que --> Write a code to only store the unique occurances of the elements in the list
+
