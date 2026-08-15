@@ -68,6 +68,25 @@ print(item)
 
 # num.clear() --> empty the set
 
+"Orange" in fruits --> True
+
+"Grapes" in fruits --> False
+
+# Union combine the sets
+A= {1,2,3}
+B= {3,4,5}
+print(A | B)
+
+# Intersection 
+A= {1,2,3}
+B= {3,4,5}
+print(A & B)
+
+# set difference
+print(A - B)
+print(B - A)
+
+
 
 
 
