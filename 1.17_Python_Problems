@@ -1,0 +1,142 @@
+# Problem 1. 
+# Student Grade Analyzer.
+# Write a Python program that takes marks of 5 subject as input.
+
+# Your program should 
+  # Store  the marks in a list..
+  # Calculate the average marks.
+  # Find the highst and lowest marks.
+  # Display the grade using.
+
+marks = []
+
+for i in range(5):
+  mark = int(input())
+  marks.append(mark)
+
+avg = sum(marks)/len(marks)
+
+print("Highest Marks -", max(marks))
+print("Lowest Marks -", min(marks))
+print("average - ", avg)
+
+
+#Problem 2. 
+# Word Frequency counter Problem statement.
+# Take a sentnce as input.
+# Display how many times each word appears.
+
+
+s = input()
+words = s.split()
+print(words)
+
+freq = {}
+
+for word in words:
+  if word not in freq:
+    freq[word] = 1
+  else:
+    freq[word] += 1
+
+print(freq)
+
+# Problem statement 3
+# Take names separated by spaces.
+# Remove duplicate name while preserving the first occurance
+
+n = input().split()
+
+unique = []
+
+for name in n:
+  if name not in unique:
+    unique.append(name)
+
+for name in unique:
+  print(name)
+
+
+# Problem 4.
+# Character Counter
+# Take a string as input from the user
+# Display
+  # Number of vowels.
+  # Number of consonants.
+  # Number of digits.
+  # Number of spaces.
+
+string = input()
+
+vowels = 0
+consonent = 0
+digit = 0
+space = 0
+
+
+for word in string:
+  if word in "aeiou":
+    vowels += 1
+
+  elif word >= "a" and word <= "z":
+    consonent += 1
+
+  elif word <= "9" and word >= "0":
+    digit += 1
+
+  elif word == " ":
+    space += 1
+
+print(vowels, consonent, digit, space)
+
+s = input()
+sl = s.lower()
+
+vowels = 0
+consonant = 0
+digit = 0
+space = 0
+
+for ch in sl:
+  
+  if ch.lower() in "aeiou":
+    vowels += 1
+
+  elif ch.isalpha():
+    consonant += 1
+
+  elif ch.isdigit():
+    digit += 1
+
+  elif ch == " ":
+    space += 1
+
+print("vowels - :", vowels)
+print("consonant - :", consonant)
+print("digits - :", digit)
+print("spaces - :", space)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
