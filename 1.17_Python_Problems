@@ -117,7 +117,16 @@ print("digits - :", digit)
 print("spaces - :", space)
 
 
+# Problem 5 shopping bill
+# Take itme names and prices for 5 products 
+# Store
+  # Item names in one list 
+  # Prices in another list
 
+#Display
+  # Total bill amount
+  # Highest priced item 
+  # Lowest priced item
 
 
 
