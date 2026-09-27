@@ -118,15 +118,122 @@ print("spaces - :", space)
 
 
 # Problem 5 shopping bill
-# Take itme names and prices for 5 products 
+# Take item names and prices for 5 products
 # Store
-  # Item names in one list 
+  # Item names in one list
   # Prices in another list
 
 #Display
   # Total bill amount
-  # Highest priced item 
+  # Highest priced item
   # Lowest priced item
+
+names = ["Pen", "Pencil", "Notebook", "Eraser", "Sharpner"]
+prices = [10, 20, 30, 5, 10]
+
+hx_item = " "
+hx = 0
+mn = prices[0]
+mn_item = " "
+
+for i in range(len(prices)):
+  if prices[i] > hx:
+    hx_item = names[i]
+    hx = prices[i]
+
+print(hx_item, hx)
+
+for i in range(len(prices)):
+  if prices[i] < mn:
+    mn = prices[i]
+    mn_item = names[i]
+
+print(mn, mn_item)
+
+total = sum(prices)
+print(total)
+
+
+
+# Problem 6: Password Validator
+# Statement
+#  A passoword is valid if it contains
+#  min 8 characters
+#  at least one uppercase letter
+#  at least one lowercase letter
+# at leasst one digit
+
+password = input()
+
+uper = False
+lower = False
+digit = False
+n = len(password)
+
+for ch in password:
+  if ch >= "a" and ch <= "z":
+    lower = True
+
+  if ch >= "A" and ch <= "Z":
+    upper = True
+
+  if ch >= "0" and ch <= "9":
+    digit = True
+
+if len(password)>= 8 and lower and upper and digit:
+  print("Valid Password")
+else:
+  print("Invalid Password")
+
+
+# Problem 7:
+# cricket scoreboard
+
+# P. Statement
+#       Take Player names and runs
+#       store them in a dictionary.
+
+# DisplayFormatter
+#       Highest Score 
+#       Average Score 
+#       lowest Score
+
+
+scoreboard = {
+    "shubman" : 40,
+    "Rohit" : 180,
+    "Virat" : 100
+}
+
+hs = 0
+hs_player = " "
+
+for k,v in scoreboard.items():
+  if v > hs:
+    hs = v
+    hs_player = k
+
+print(hs_player, hs)
+
+
+scoreboard = {
+    "shubman" : 40,
+    "Rohit" : 180,
+    "pirat" : 100
+}
+
+hx = 0
+hx_scorer = " "
+
+for k in scoreboard.keys():
+  if scoreboard[k] > hx:
+    hx = scoreboard[k]
+    hx_scorer = k
+
+print(hx_scorer, hx)
+
+
+
 
 
 
