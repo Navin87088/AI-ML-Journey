@@ -235,7 +235,23 @@ print(hx_scorer, hx)
 
 
 
+# P. Statement 9: Most Frequent characters
+#       Find the character that appears the 
+#       maximum number of times in a string 
+#       Ignore spaces
 
+ch = "Python is the amazing language"
+
+freq = {}
+
+for c in ch:
+  if c == " ":
+    continue
+  if c not in freq:
+    freq[c] = 1
+  else:
+    freq[c] += 1
+print(freq)
 
 
 
