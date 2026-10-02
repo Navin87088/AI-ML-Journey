@@ -1,0 +1,47 @@
+A bank wants to build a simple system to manage customer accounts using object-oriented Programmin(OOP)
+
+Create a class named BankAccount with the following requitements:
+
+Requiremets
+The class should have a construtor (__init__) that accepts:
+Account holder's name(holder)
+Initial account balance (balance)
+
+Create a method named deposit(amount) that adds the given amount to the account balance.
+
+Create a method named withdraw(named) that:
+Deducts the given amount from the balance if sufficient funds are available.
+
+Otherwise, displays the message:
+Insufficient Balance
+
+Create a method named show_balance() that displays the current account balance.
+
+
+class bankholder:
+
+  def __init__(self, holder, balance)
+    self.holder = holder
+    self.balance = balance
+
+    def deposite(self, amount)
+      sel.balance += amount
+
+ def withdraw(self, amount)
+   if self.balance >= amount:
+     self.balance -= amount
+   else:
+     print("Insuficient Balance")
+  
+def show_balance(self):
+    print(self.balance)
+    
+
+
+
+
+
+
+
+
+
