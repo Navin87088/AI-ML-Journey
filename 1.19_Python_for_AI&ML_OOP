@@ -35,6 +35,17 @@ class bankholder:
   
 def show_balance(self):
     print(self.balance)
+
+What is the O/P
+Q.1 class student:
+       pass
+    s = student()
+    print(type(s))
+
+
+
+
+
     
 
 
