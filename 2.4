@@ -1,0 +1,25 @@
+file = open("sample.txt","w")
+file.write("AJ\n")
+file.write("Rahul\n")
+file.write("Raj")
+file.close()
+
+
+file = open("sample.txt","r")
+data = file.read()
+print(data)
+file.close()
+
+
+file = open("sample.txt","r")
+data = file.readline()
+print(data)
+data = file.readline()
+print(data)
+file.close()
+
+
+file = open("sample.txt","r")
+data = file.readlines()
+print(data)
+file.close()
