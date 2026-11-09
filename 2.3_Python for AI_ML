@@ -1,0 +1,86 @@
+lambda is the anonymous function(unknow identity)
+lambda parameters : expression
+functional programming = without writing any loops 
+
+
+
+
+def cube(lst):
+    
+    cu = []
+    
+    for elem in lst:
+        cu.append(elem**3)
+        
+    return cu
+    
+
+print(cube([1,2,3]))
+
+
+A = [3,4,5]
+cube = list(map(lambda x : x**3, A))
+print(cube)
+
+
+
+def Add(L):
+    
+    Addition = []
+    
+    for elem in L:
+        Addition.append(elem +5)
+        
+    return Addition
+    
+print(Add([5,5,5]))
+
+
+print(list(map(lambda x : x + 5, [1,2,3])))
+
+
+print(list(map(lambda x : x.upper(), ["navin"])))
+
+def upper(lst):
+    case = []
+    for elem in lst:
+        case.append(elem.upper())
+        
+    return case
+    
+print(upper(["navin", "singh"]))
+        
+        
+        
+def prices(num):
+    return num + ( num * 0.18 )
+    
+fprice = []
+p = [1,5,10]
+for elem in p:
+    fprice.append(prices(elem))
+    
+print(fprice)
+
+
+print(list(map(lambda x : x + x*0.18, [1,5,10])))
+
+
+num = [1,2,3,4,5,6,7]
+
+even = []
+for n in num:
+    if n%2 == 0:
+        even.append(n)
+        
+    else:
+        continue
+print(even)
+
+
+even = list(filter(lambda x : x%2 == 0, num))
+print(even)
+
+
+
+        
